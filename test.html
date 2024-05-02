@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Halaman Web dengan Bootstrap</title>
+  <!-- Panggil file CSS Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <header class="jumbotron">
+      <h1>SHIBUYA</h1>
+      <p>Jepang.</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="row text-center text-light">
+            <div class="col-md-12 bg-primary">12 Kolom</div> 
+            <div class="col-md-6 bg-secondary">6 Kolom</div> 
+            <div class="col-md-6 bg-success">6 Kolom</div> 
+            <div class="col-md-4 bg-danger">4 Kolom</div> 
+            <div class="col-md-8 bg-info">8 Kolom</div>
+        </div>
+
+    <div class="d-grid mt-3">
+        <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    </div>
+
+    <div id="demo" class="carousel slide mt-3" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="daryan-shamkhali-FwnImRn57VA-unsplash.jpg" alt="shibuya" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="jezael-melgoza-alY6_OpdwRQ-unsplash.jpg" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="louie-nicolo-nimor-0BExqfEtp6A-unsplash.jpg" alt="New York" class="d-block w-100">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Artikel</h2>
+        <p>Shibuya, salah satu distrik paling ikonik di Tokyo, Jepang, telah menjadi simbol kehidupan perkotaan yang sibuk dan dinamis. Terkenal dengan keramaian dan lampu neon yang menyala di sepanjang jalan, Shibuya menawarkan pengalaman yang tak terlupakan bagi para pengunjung dari seluruh dunia.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Menelusuri Keunikan dan Kehidupan Malam di Shibuya, Tokyo</h1>            
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <h5 class="card-header">Artikel Lainnya</h5>
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item"><a href="#">Panduan Wisata ke Shibuya</a></li>
+                  <li class="list-group-item"><a href="#">10 Tempat Wisata Terbaik di Shibuya</a></li>
+                  <li class="list-group-item"><a href="#">Mengenal Budaya Malam di Shibuya</a></li>
+                  <li class="list-group-item"><a href="#">Wisata Kuliner di Shibuya</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer class="jumbotron mt-5">
+      <p>Hak Cipta &copy; 2024. BUYA RAMADHAN.</p>
+    </footer>
+  </div>
+
+  <!-- Panggil file JavaScript Bootstrap (Popper.js diperlukan untuk dropdown) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    $('.carousel').carousel({
+      interval: 2000 // Atur waktu pergeseran gambar dalam milidetik
+    });
+  </script>
+</body>
+</html>
